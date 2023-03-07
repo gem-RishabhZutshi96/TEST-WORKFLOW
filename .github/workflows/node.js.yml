@@ -3,8 +3,7 @@
 
 name: Node.js CI
 
-on:
-  workflow_dispatch 
+on: [push]
 
 jobs:
   should_deploy:
